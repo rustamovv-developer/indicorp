@@ -1,0 +1,94 @@
+@import url(./home.min.css);
+@import url(./about.min.css);
+@import url(./advice.min.css);
+@import url(./services.min.css);
+@import url(./contact.min.css);
+@import url(./footer.min.css);
+@import url(./adv.min.css);
+@import url(./responsive.min.css);
+@import url(./form.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #fafafa;
+}
+:root {
+  --white: #fff;
+  --second-text-color: #737373;
+  --secondary-color-1: #00a0c1;
+  --secondary-color-2: #16697a;
+  --text-color: #252b42;
+  --regular: "Montserrat400";
+  --medium: "Montserrat500";
+  --semibold: "Montserrat600";
+  --bold: "Montserrat700";
+  --extrabold: "Montserrat800";
+}
+.container {
+  max-width: 1010px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#backtop {
+  position: fixed;
+  right: 50px;
+  bottom: -60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 50px;
+  transition: 0.5s;
+  z-index: 100000;
+}
+#backtop .top-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+#backtop.backtop-show {
+  bottom: 80px;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+.title {
+  color: var(--text-color);
+  font-family: var(--bold);
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+.text {
+  max-width: 511px;
+  color: var(--second-text-color);
+  text-align: center;
+  font-family: var(--medium);
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}

@@ -1,0 +1,40 @@
+.footer {
+  background: var(--secondary-color-2);
+}
+.footer-info {
+  display: flex;
+  padding: 50px 0px 80px;
+  column-gap: 50px;
+}
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.footer-title {
+  color: var(--white);
+  font-family: var(--bold);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.link {
+  color: var(--white);
+  font-family: var(--semibold);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.footer-svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.footer-svg path {
+  fill: #8ec2f2;
+}

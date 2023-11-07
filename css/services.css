@@ -1,0 +1,121 @@
+#services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--white);
+  row-gap: 100px;
+  padding: 50px 0px;
+  margin-bottom: 80px;
+}
+.services-bottom {
+  display: flex;
+  align-items: center;
+  column-gap: 110px;
+}
+.services-left-img {
+  position: relative;
+  width: 590px;
+  height: 442px;
+  flex-grow: 1;
+}
+.services-button {
+  position: absolute;
+  z-index: 1;
+  margin-left: -343px;
+  margin-top: 172px;
+  border-radius: 73px;
+  background: var(--secondary-color-1);
+  border: none;
+  padding: 34px;
+}
+.services-right {
+  display: flex;
+  flex-direction: column;
+}
+.services-right-title {
+  color: var(--text-color);
+  font-family: var(--bold);
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  margin-bottom: 10px;
+}
+.services-right-text {
+  color: var(--second-text-color);
+  font-family: var(--medium);
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  margin-bottom: 50px;
+}
+.services-bottom-box {
+  display: flex;
+  column-gap: 20px;
+  margin-bottom: 30px;
+}
+.services-bottom-box svg path {
+  fill: #ffa62b;
+}
+.boxes-title {
+  color: var(--text-color);
+  font-family: var(--bold);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin-bottom: 5px;
+}
+.boxes-text {
+  color: var(--second-text-color);
+  font-family: var(--semibold);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.services-images {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  margin-bottom: 70px;
+}
+.services-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 50px;
+  border-radius: 2px;
+  background: var(--secondary-color-2);
+}
+.form-title {
+  max-width: 268px;
+  color: var(--white);
+  font-family: var(--bold);
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+.subscribe {
+  display: flex;
+  max-width: 450px;
+}
+
+.services-input {
+  border: none;
+  border-radius: 10px 0 0 10px;
+  padding: 15px 0px 15px 20px;
+  font-size: 14px;
+  width: 450px;
+  outline: none;
+}
+
+.services-btn {
+  padding: 15px;
+  color: var(--white);
+  text-align: center;
+  font-family: var(--regular);
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid var(--white);
+  background: var(--primary-color, #ffa62b);
+}
